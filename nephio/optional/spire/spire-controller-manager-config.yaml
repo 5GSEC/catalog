@@ -14,7 +14,7 @@ data:
     leaderElection:
       leaderElect: true
       resourceName: 98c9c988.spiffe.io
-      resourceNamespace: spire-system
+      resourceNamespace: spire
     clusterName: kind
     trustDomain: example.org
     ignoreNamespaces:

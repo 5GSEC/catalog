@@ -15,10 +15,11 @@ data:
       leaderElect: true
       resourceName: 98c9c988.spiffe.io
       resourceNamespace: spire-system
-    clusterName: cluster1
-    trustDomain: cluster1.demo
+    clusterName: kind
+    trustDomain: example.org
     ignoreNamespaces:
       - kube-system
       - kube-public
       - spire-system
       - local-path-storage
+      

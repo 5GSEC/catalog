@@ -16,6 +16,8 @@ spec:
   selector:
     app: spire-server
 
+
+---
 # Service definition for SPIRE server bundle endpoint
 apiVersion: v1
 kind: Service
